@@ -9,7 +9,7 @@ output_lines = []
 
 def add_entry(path, depth):
     filename = os.path.basename(path)
-    url_path = path.replace("\\", "/").lstrip("./")
+    url_path = os.path.relpath(path, root_dir).replace("\\", "/")
     md_link = f"[{filename}]({repo_url}/{branch}/{url_path})" if os.path.isfile(path) else f"**[{filename}]({repo_url}/{branch}/{url_path})**"
     output_lines.append(f"{'  ' * depth}- {md_link}")
 
