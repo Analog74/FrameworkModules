@@ -26,8 +26,26 @@ A public collection of reusable Luau libraries and Roblox modules for structured
 
 ### Repository File Tree
 
+- [CHANGELOG.md](https://github.com/Analog74/FrameworkModules/blob/main/CHANGELOG.md)
+- [CONTRIBUTING.md](https://github.com/Analog74/FrameworkModules/blob/main/CONTRIBUTING.md)
 - [FILETREE.md](https://github.com/Analog74/FrameworkModules/blob/main/FILETREE.md)
 - [default.project.json](https://github.com/Analog74/FrameworkModules/blob/main/default.project.json)
+- **[docs](https://github.com/Analog74/FrameworkModules/blob/main/docs)**
+  - [API_REFERENCE.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/API_REFERENCE.md)
+  - [ARCHITECTURE.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/ARCHITECTURE.md)
+  - [AUTHORS.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/AUTHORS.md)
+  - [CONTRIBUTING.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/CONTRIBUTING.md)
+  - [CONVENTIONS.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/CONVENTIONS.md)
+  - [DEPENDENCIES.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/DEPENDENCIES.md)
+  - [DIRECTORY_INDEX.json](https://github.com/Analog74/FrameworkModules/blob/main/docs/DIRECTORY_INDEX.json)
+  - [DIRECTORY_INDEX.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/DIRECTORY_INDEX.md)
+  - [DOCS_COVERAGE.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/DOCS_COVERAGE.md)
+  - [EXAMPLES.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/EXAMPLES.md)
+  - [FEATURE_INDEX.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/FEATURE_INDEX.md)
+  - [FILE_INDEX.json](https://github.com/Analog74/FrameworkModules/blob/main/docs/FILE_INDEX.json)
+  - [FILE_INDEX.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/FILE_INDEX.md)
+  - [TAGS.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/TAGS.md)
+  - [TEST_COVERAGE.md](https://github.com/Analog74/FrameworkModules/blob/main/docs/TEST_COVERAGE.md)
 - [generate_filetree.py](https://github.com/Analog74/FrameworkModules/blob/main/generate_filetree.py)
 - **[src](https://github.com/Analog74/FrameworkModules/blob/main/src)**
   - **[ReplicatedStorage](https://github.com/Analog74/FrameworkModules/blob/main/src/ReplicatedStorage)**

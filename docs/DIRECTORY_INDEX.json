@@ -1,18 +1,2213 @@
 {
   "directories": [
     {
-      "path": "src/ReplicatedStorage",
-      "purpose": "Shared modules and data accessible by both client and server",
-      "keySubfolders": ["Modules", "Packages", "ThirdParty", "FastCastRedux", "GuiLib", "RaycastHitboxV4", "Roact", "Shared", "SuphisLinkedList", "Templates", "Zone"]
+      "path": "docs",
+      "purpose": "Project documentation and indexes",
+      "keySubfolders": []
+    },
+    {
+      "path": "src",
+      "purpose": "-",
+      "keySubfolders": [
+        "ReplicatedStorage/",
+        "ServerScriptService/"
+      ]
     },
     {
       "path": "src/ServerScriptService",
       "purpose": "Server-side scripts and logic",
-      "keySubfolders": ["SpellCombatSystem"]
+      "keySubfolders": [
+        "SpellCombatSystem/"
+      ]
     },
     {
-      "path": "docs",
-      "purpose": "Project documentation and indexes",
+      "path": "src/ServerScriptService/SpellCombatSystem",
+      "purpose": "-",
+      "keySubfolders": [
+        "game/",
+        "node_modules/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules",
+      "purpose": "-",
+      "keySubfolders": [
+        "@jsdotlua/",
+        "@quenty/",
+        "@quentystudios/",
+        "@sircfenner/",
+        "symbol-luau/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quentystudios",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/symbol-luau",
+      "purpose": "-",
+      "keySubfolders": [
+        "src/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/symbol-luau/src",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty",
+      "purpose": "-",
+      "keySubfolders": [
+        "acceltween/",
+        "adorneeutils/",
+        "baseobject/",
+        "basicpane/",
+        "binarysearch/",
+        "binder/",
+        "bindtocloseservice/",
+        "blend/",
+        "brio/",
+        "buttondragmodel/",
+        "camera/",
+        "cancellabledelay/",
+        "canceltoken/",
+        "cframeutils/",
+        "clienttranslator/",
+        "color3utils/",
+        "colorpicker/",
+        "cubicspline/",
+        "datastore/",
+        "deferred/",
+        "draw/",
+        "ducktype/",
+        "enumutils/",
+        "gamescalingutils/",
+        "inputkeymaputils/",
+        "inputmode/",
+        "inputobjectutils/",
+        "instanceutils/",
+        "linearsystemssolvers/",
+        "linkutils/",
+        "loader/",
+        "maid/",
+        "math/",
+        "numberrangeutils/",
+        "observablecollection/",
+        "octree/",
+        "pagesutils/",
+        "performanceutils/",
+        "promise/",
+        "promisemaid/",
+        "pseudolocalize/",
+        "qframe/",
+        "randomutils/",
+        "rbxasset/",
+        "rx/",
+        "rxsignal/",
+        "servicebag/",
+        "signal/",
+        "soundplayer/",
+        "sounds/",
+        "spring/",
+        "statestack/",
+        "steputils/",
+        "string/",
+        "symbol/",
+        "table/",
+        "throttle/",
+        "timedtween/",
+        "transitionmodel/",
+        "typeutils/",
+        "valuebaseutils/",
+        "valueobject/",
+        "vector3utils/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/canceltoken",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/canceltoken/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/performanceutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/performanceutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/bindtocloseservice",
+      "purpose": "-",
+      "keySubfolders": [
+        "Server/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/bindtocloseservice/Server",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/valueobject",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/valueobject/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/statestack",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/statestack/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/rbxasset",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/rbxasset/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/clienttranslator",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/clienttranslator/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "Conversion/",
+        "Numbers/",
+        "Utils/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/clienttranslator/Shared/Numbers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/clienttranslator/Shared/Utils",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/clienttranslator/Shared/Conversion",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/linearsystemssolvers",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/linearsystemssolvers/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/gamescalingutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Client/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/gamescalingutils/Client",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/throttle",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/throttle/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/promisemaid",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/promisemaid/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/binder",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/binder/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "Collection/",
+        "Promise/",
+        "Trackers/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/binder/Shared/Collection",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/binder/Shared/Trackers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/binder/Shared/Promise",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/qframe",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/qframe/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/brio",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/brio/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/deferred",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/deferred/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/linkutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/linkutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/typeutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/typeutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/camera",
+      "purpose": "-",
+      "keySubfolders": [
+        "Client/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/camera/Client",
+      "purpose": "-",
+      "keySubfolders": [
+        "Controls/",
+        "Effects/",
+        "Input/",
+        "Utility/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/camera/Client/Input",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/camera/Client/Controls",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/camera/Client/Effects",
+      "purpose": "-",
+      "keySubfolders": [
+        "FadeBetween/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/camera/Client/Effects/FadeBetween",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/camera/Client/Utility",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/rxsignal",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/rxsignal/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/soundplayer",
+      "purpose": "-",
+      "keySubfolders": [
+        "Client/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/soundplayer/Client",
+      "purpose": "-",
+      "keySubfolders": [
+        "Loops/",
+        "Schedule/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/soundplayer/Client/Schedule",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/soundplayer/Client/Loops",
+      "purpose": "-",
+      "keySubfolders": [
+        "Layered/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/soundplayer/Client/Loops/Layered",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/cancellabledelay",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/cancellabledelay/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/maid",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/maid/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/cframeutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/cframeutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/binarysearch",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/binarysearch/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/baseobject",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/baseobject/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/timedtween",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/timedtween/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputkeymaputils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Client/",
+        "Server/",
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputkeymaputils/Server",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputkeymaputils/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "Types/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputkeymaputils/Shared/Types",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputkeymaputils/Client",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/symbol",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/symbol/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/pagesutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/pagesutils/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "Proxy/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/pagesutils/Shared/Proxy",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/pseudolocalize",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/pseudolocalize/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/math",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/math/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/sounds",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/sounds/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/blend",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/blend/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "Blend/",
+        "Test/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/blend/Shared/Test",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/blend/Shared/Blend",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/numberrangeutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/numberrangeutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/datastore",
+      "purpose": "-",
+      "keySubfolders": [
+        "Server/",
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/datastore/Server",
+      "purpose": "-",
+      "keySubfolders": [
+        "Modules/",
+        "Utility/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/datastore/Server/Modules",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/datastore/Server/Utility",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/datastore/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "Utility/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/datastore/Shared/Utility",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/observablecollection",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/observablecollection/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "SortedList/",
+        "Utils/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/observablecollection/Shared/Utils",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/observablecollection/Shared/SortedList",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/table",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/table/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/adorneeutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/adorneeutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/loader",
+      "purpose": "-",
+      "keySubfolders": [
+        "Dependencies/",
+        "LoaderLink/",
+        "Replication/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/loader/Dependencies",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/loader/LoaderLink",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/loader/Replication",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/color3utils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/color3utils/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "luv/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/color3utils/Shared/luv",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/steputils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/steputils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/servicebag",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/servicebag/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputmode",
+      "purpose": "-",
+      "keySubfolders": [
+        "Client/",
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputmode/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputmode/Client",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/buttondragmodel",
+      "purpose": "-",
+      "keySubfolders": [
+        "Client/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/buttondragmodel/Client",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/transitionmodel",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/transitionmodel/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "Sustain/",
+        "Timed/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/transitionmodel/Shared/Sustain",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/transitionmodel/Shared/Timed",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/colorpicker",
+      "purpose": "-",
+      "keySubfolders": [
+        "Client/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/colorpicker/Client",
+      "purpose": "-",
+      "keySubfolders": [
+        "Cursor/",
+        "HSV/",
+        "Story/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/colorpicker/Client/Cursor",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/colorpicker/Client/HSV",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/colorpicker/Client/Story",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/acceltween",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/acceltween/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/basicpane",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/basicpane/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/octree",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/octree/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/promise",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/promise/Shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "Utility/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/promise/Shared/Utility",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/enumutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/enumutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/vector3utils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/vector3utils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/string",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/string/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/cubicspline",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/cubicspline/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/instanceutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/instanceutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/ducktype",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/ducktype/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/draw",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/draw/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/randomutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/randomutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/rx",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/rx/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/signal",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/signal/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputobjectutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Client/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/inputobjectutils/Client",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/spring",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/spring/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/valuebaseutils",
+      "purpose": "-",
+      "keySubfolders": [
+        "Shared/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@quenty/valuebaseutils/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner",
+      "purpose": "-",
+      "keySubfolders": [
+        "studiocomponents/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents",
+      "purpose": "-",
+      "keySubfolders": [
+        "src/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src",
+      "purpose": "-",
+      "keySubfolders": [
+        "Components/",
+        "Contexts/",
+        "Hooks/",
+        "Stories/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Contexts",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Components",
+      "purpose": "-",
+      "keySubfolders": [
+        "Dropdown/",
+        "Foundation/",
+        "NumberSequencePicker/",
+        "ScrollFrame/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Components/Dropdown",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Components/Foundation",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Components/NumberSequencePicker",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Components/ScrollFrame",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Stories",
+      "purpose": "-",
+      "keySubfolders": [
+        "Helpers/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Stories/Helpers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@sircfenner/studiocomponents/src/Hooks",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua",
+      "purpose": "-",
+      "keySubfolders": [
+        "boolean/",
+        "collections/",
+        "console/",
+        "instance-of/",
+        "luau-polyfill/",
+        "math/",
+        "number/",
+        "promise/",
+        "react/",
+        "react-reconciler/",
+        "react-roblox/",
+        "scheduler/",
+        "shared/",
+        "string/",
+        "timers/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react-roblox",
+      "purpose": "-",
+      "keySubfolders": [
+        "src/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react-roblox/src",
+      "purpose": "-",
+      "keySubfolders": [
+        "client/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react-roblox/src/client",
+      "purpose": "-",
+      "keySubfolders": [
+        "roblox/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react-roblox/src/client/roblox",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/timers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/scheduler",
+      "purpose": "-",
+      "keySubfolders": [
+        "src/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/scheduler/src",
+      "purpose": "-",
+      "keySubfolders": [
+        "forks/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/scheduler/src/forks",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "src/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/shared/src",
+      "purpose": "-",
+      "keySubfolders": [
+        "PropMarkers/",
+        "ReactFiberHostConfig/",
+        "ReactSharedInternals/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/shared/src/ReactFiberHostConfig",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/shared/src/ReactSharedInternals",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/shared/src/PropMarkers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/math",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/number",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/instance-of",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/luau-polyfill",
+      "purpose": "-",
+      "keySubfolders": [
+        "AssertionError/",
+        "Error/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/luau-polyfill/AssertionError",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/luau-polyfill/Error",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/boolean",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/promise",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/string",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/collections",
+      "purpose": "-",
+      "keySubfolders": [
+        "Array/",
+        "Map/",
+        "Object/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/collections/Array",
+      "purpose": "-",
+      "keySubfolders": [
+        "from/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/collections/Array/from",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/collections/Map",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/collections/Object",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react",
+      "purpose": "-",
+      "keySubfolders": [
+        "src/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react/src",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react-reconciler",
+      "purpose": "-",
+      "keySubfolders": [
+        "src/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react-reconciler/src",
+      "purpose": "-",
+      "keySubfolders": [
+        "forks/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/react-reconciler/src/forks",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/node_modules/@jsdotlua/console",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/game",
+      "purpose": "-",
+      "keySubfolders": [
+        "Scripts/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/game/Scripts",
+      "purpose": "-",
+      "keySubfolders": [
+        "Abilities/"
+      ]
+    },
+    {
+      "path": "src/ServerScriptService/SpellCombatSystem/game/Scripts/Abilities",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage",
+      "purpose": "Shared modules and data accessible by both client and server",
+      "keySubfolders": [
+        "Modules/",
+        "Packages/",
+        "SpellCombatSystem/",
+        "ThirdParty/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/SpellCombatSystem",
+      "purpose": "-",
+      "keySubfolders": [
+        "Scripts/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/SpellCombatSystem/Scripts",
+      "purpose": "-",
+      "keySubfolders": [
+        "Abilities/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/SpellCombatSystem/Scripts/Abilities",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages",
+      "purpose": "Package modules and dependencies",
+      "keySubfolders": [
+        "_Index/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index",
+      "purpose": "-",
+      "keySubfolders": [
+        "jsdotlua_boolean@1.2.7/",
+        "jsdotlua_collections@1.2.7/",
+        "jsdotlua_console@1.2.7/",
+        "jsdotlua_es7-types@1.2.7/",
+        "jsdotlua_instance-of@1.2.7/",
+        "jsdotlua_luau-polyfill@1.2.7/",
+        "jsdotlua_math@1.2.7/",
+        "jsdotlua_number@1.2.7/",
+        "jsdotlua_promise@3.5.2/",
+        "jsdotlua_react-reconciler@17.2.1/",
+        "jsdotlua_react-roblox@17.2.1/",
+        "jsdotlua_react@17.2.1/",
+        "jsdotlua_scheduler@17.2.1/",
+        "jsdotlua_shared@17.2.1/",
+        "jsdotlua_string@1.2.7/",
+        "jsdotlua_symbol-luau@1.0.1/",
+        "jsdotlua_timers@1.2.7/",
+        "roblox_roact@1.4.4/",
+        "sircfenner_studiocomponents@1.2.0/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_boolean@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "boolean/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_boolean@1.2.7/boolean",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_es7-types@1.2.7",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_timers@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "timers/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_timers@1.2.7/timers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_symbol-luau@1.0.1",
+      "purpose": "-",
+      "keySubfolders": [
+        "symbol-luau/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_symbol-luau@1.0.1/symbol-luau",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react@17.2.1",
+      "purpose": "-",
+      "keySubfolders": [
+        "react/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react@17.2.1/react",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/roblox_roact@1.4.4",
+      "purpose": "-",
+      "keySubfolders": [
+        "roact/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/roblox_roact@1.4.4/roact",
+      "purpose": "-",
+      "keySubfolders": [
+        "Component.spec/",
+        "PropMarkers/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/roblox_roact@1.4.4/roact/Component.spec",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/roblox_roact@1.4.4/roact/PropMarkers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_number@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "number/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_number@1.2.7/number",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_math@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "math/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_math@1.2.7/math",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_string@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "string/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_string@1.2.7/string",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_luau-polyfill@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "luau-polyfill/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_luau-polyfill@1.2.7/luau-polyfill",
+      "purpose": "-",
+      "keySubfolders": [
+        "AssertionError/",
+        "Error/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_luau-polyfill@1.2.7/luau-polyfill/AssertionError",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_luau-polyfill@1.2.7/luau-polyfill/Error",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_collections@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "collections/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_collections@1.2.7/collections",
+      "purpose": "-",
+      "keySubfolders": [
+        "Array/",
+        "Map/",
+        "Object/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_collections@1.2.7/collections/Array",
+      "purpose": "-",
+      "keySubfolders": [
+        "from/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_collections@1.2.7/collections/Array/from",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_collections@1.2.7/collections/Map",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_collections@1.2.7/collections/Object",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_promise@3.5.2",
+      "purpose": "-",
+      "keySubfolders": [
+        "promise/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_promise@3.5.2/promise",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_console@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "console/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_console@1.2.7/console",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_instance-of@1.2.7",
+      "purpose": "-",
+      "keySubfolders": [
+        "instance-of/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_instance-of@1.2.7/instance-of",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_scheduler@17.2.1",
+      "purpose": "-",
+      "keySubfolders": [
+        "scheduler/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_scheduler@17.2.1/scheduler",
+      "purpose": "-",
+      "keySubfolders": [
+        "forks/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_scheduler@17.2.1/scheduler/forks",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0",
+      "purpose": "-",
+      "keySubfolders": [
+        "studiocomponents/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents",
+      "purpose": "-",
+      "keySubfolders": [
+        "Components/",
+        "Contexts/",
+        "Hooks/",
+        "Stories/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Contexts",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Components",
+      "purpose": "-",
+      "keySubfolders": [
+        "Dropdown/",
+        "Foundation/",
+        "NumberSequencePicker/",
+        "ScrollFrame/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Components/Dropdown",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Components/Foundation",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Components/NumberSequencePicker",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Components/ScrollFrame",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Stories",
+      "purpose": "-",
+      "keySubfolders": [
+        "Helpers/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Stories/Helpers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/sircfenner_studiocomponents@1.2.0/studiocomponents/Hooks",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react-roblox@17.2.1",
+      "purpose": "-",
+      "keySubfolders": [
+        "react-roblox/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react-roblox@17.2.1/react-roblox",
+      "purpose": "-",
+      "keySubfolders": [
+        "client/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react-roblox@17.2.1/react-roblox/client",
+      "purpose": "-",
+      "keySubfolders": [
+        "roblox/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react-roblox@17.2.1/react-roblox/client/roblox",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_shared@17.2.1",
+      "purpose": "-",
+      "keySubfolders": [
+        "shared/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_shared@17.2.1/shared",
+      "purpose": "-",
+      "keySubfolders": [
+        "PropMarkers/",
+        "ReactFiberHostConfig/",
+        "ReactSharedInternals/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_shared@17.2.1/shared/ReactFiberHostConfig",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_shared@17.2.1/shared/ReactSharedInternals",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_shared@17.2.1/shared/PropMarkers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react-reconciler@17.2.1",
+      "purpose": "-",
+      "keySubfolders": [
+        "react-reconciler/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react-reconciler@17.2.1/react-reconciler",
+      "purpose": "-",
+      "keySubfolders": [
+        "forks/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Packages/_Index/jsdotlua_react-reconciler@17.2.1/react-reconciler/forks",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules",
+      "purpose": "Core gameplay and utility modules",
+      "keySubfolders": [
+        "Auxiliary/",
+        "FastCastRedux/",
+        "GuiLib/",
+        "RaycastHitboxV4/",
+        "Roact/",
+        "Shared/",
+        "SuphisLinkedList/",
+        "Templates/",
+        "Zone/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/RaycastHitboxV4",
+      "purpose": "-",
+      "keySubfolders": [
+        "Solvers/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/RaycastHitboxV4/Solvers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/GuiLib",
+      "purpose": "-",
+      "keySubfolders": [
+        "Classes/",
+        "Constructors/",
+        "Utilities/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/GuiLib/Classes",
+      "purpose": "-",
+      "keySubfolders": [
+        "Children/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/GuiLib/Classes/Children",
+      "purpose": "-",
+      "keySubfolders": [
+        "RadialMenu/",
+        "TextMask/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/GuiLib/Classes/Children/TextMask",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/GuiLib/Classes/Children/RadialMenu",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/GuiLib/Utilities",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/GuiLib/Constructors",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Zone",
+      "purpose": "-",
+      "keySubfolders": [
+        "Enum/",
+        "ZoneController/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Zone/Enum",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Zone/ZoneController",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Shared",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/FastCastRedux",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Roact",
+      "purpose": "-",
+      "keySubfolders": [
+        "Component.spec/",
+        "PropMarkers/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Roact/Component.spec",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Roact/PropMarkers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/SuphisLinkedList",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Templates",
+      "purpose": "-",
+      "keySubfolders": [
+        "Abilities/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Templates/Abilities",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Auxiliary",
+      "purpose": "-",
+      "keySubfolders": [
+        "CameraShaker/",
+        "LightningBolt/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Auxiliary/LightningBolt",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/Modules/Auxiliary/CameraShaker",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty",
+      "purpose": "Third-party libraries",
+      "keySubfolders": [
+        "CameraShaker/",
+        "JSON/",
+        "OTS/",
+        "RaycastHitboxV4/",
+        "Roact/",
+        "StudioComponents/",
+        "SuphiLinkedList/",
+        "ZonePlus/",
+        "refx/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/RaycastHitboxV4",
+      "purpose": "-",
+      "keySubfolders": [
+        "Solvers/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/RaycastHitboxV4/Solvers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/refx",
+      "purpose": "-",
+      "keySubfolders": [
+        "client/",
+        "modules/",
+        "tests/",
+        "utilities/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/refx/tests",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/refx/utilities",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/refx/modules",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/refx/client",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/ZonePlus",
+      "purpose": "-",
+      "keySubfolders": [
+        "Enum/",
+        "ZoneController/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/ZonePlus/Enum",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/ZonePlus/ZoneController",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/JSON",
+      "purpose": "-",
+      "keySubfolders": [
+        "bench/",
+        "test/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/JSON/bench",
+      "purpose": "-",
+      "keySubfolders": [
+        "util/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/JSON/bench/util",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/JSON/test",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/CameraShaker",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/Roact",
+      "purpose": "-",
+      "keySubfolders": [
+        "Component.spec/",
+        "PropMarkers/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/Roact/Component.spec",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/Roact/PropMarkers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/OTS",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents",
+      "purpose": "-",
+      "keySubfolders": [
+        "Components/",
+        "Contexts/",
+        "Hooks/",
+        "Stories/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Contexts",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Components",
+      "purpose": "-",
+      "keySubfolders": [
+        "Dropdown/",
+        "Foundation/",
+        "NumberSequencePicker/",
+        "ScrollFrame/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Components/Dropdown",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Components/Foundation",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Components/NumberSequencePicker",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Components/ScrollFrame",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Stories",
+      "purpose": "-",
+      "keySubfolders": [
+        "Helpers/"
+      ]
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Stories/Helpers",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/StudioComponents/Hooks",
+      "purpose": "-",
+      "keySubfolders": []
+    },
+    {
+      "path": "src/ReplicatedStorage/ThirdParty/SuphiLinkedList",
+      "purpose": "-",
       "keySubfolders": []
     }
   ]
