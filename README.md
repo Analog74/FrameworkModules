@@ -16,52 +16,7 @@ A public collection of reusable Luau libraries and Roblox modules for structured
 
 ## Directory Structure
 
-```
 
-</details>
-
----
-
-## Links to All Files and Folders
-
-(Click to jump directly to each item in GitHub)
-
-- [default.project.json](./FrameworkModules/default.project.json)
-- [src/ReplicatedStorage/Modules](./FrameworkModules/src/ReplicatedStorage/Modules)
-  - [Auxiliary](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary)
-    - [CameraShaker](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/CameraShaker)
-      - [CameraShakeInstance.luau](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/CameraShaker/CameraShakeInstance.luau)
-      - [CameraShakePresets.luau](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/CameraShaker/CameraShakePresets.luau)
-      - [init.luau](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/CameraShaker/init.luau)
-    - [init.meta.json](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/init.meta.json)
-    - [LightningBolt](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/LightningBolt)
-      - [init.luau](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/LightningBolt/init.luau)
-      - [LightningExplosion.luau](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/LightningBolt/LightningExplosion.luau)
-      - [LightningExplosion.meta.json](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/LightningBolt/LightningExplosion.meta.json)
-      - [LightningSparks.luau](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/LightningBolt/LightningSparks.luau)
-    - [RockModule.luau](./FrameworkModules/src/ReplicatedStorage/Modules/Auxiliary/RockModule.luau)
-  - [Crafting.luau](./FrameworkModules/src/ReplicatedStorage/Modules/Crafting.luau)
-  - ...  
-- [src/ReplicatedStorage/Modules/FastCastRedux](./FrameworkModules/src/ReplicatedStorage/Modules/FastCastRedux)
-  - [ActiveCast.luau](./FrameworkModules/src/ReplicatedStorage/Modules/FastCastRedux/ActiveCast.luau)
-  - [init.luau](./FrameworkModules/src/ReplicatedStorage/Modules/FastCastRedux/init.luau)
-  - ...  
-- [src/ReplicatedStorage/Modules/GuiLib](./FrameworkModules/src/ReplicatedStorage/Modules/GuiLib)
-  - [Classes](./FrameworkModules/src/ReplicatedStorage/Modules/GuiLib/Classes)
-    - [CheckboxLabel.luau](./FrameworkModules/src/ReplicatedStorage/Modules/GuiLib/Classes/CheckboxLabel.luau)
-    - ...  
-  - ...  
-- ... (Continue for every subfolder and file, using the same relative linking style)
-
----
-
-## Getting Started
-
-Clone the repo and require the modules you need in your Roblox project.
-
-```sh
-git clone https://github.com/Analog74/FrameworkModules.git
-```
 
 ## License
 
