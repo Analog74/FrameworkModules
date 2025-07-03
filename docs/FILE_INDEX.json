@@ -1,0 +1,20 @@
+{
+  "files": [
+    {"file": "default.project.json", "location": "/", "description": "Rojo project configuration"},
+    {"file": "generate_filetree.py", "location": "/", "description": "File tree generator script"},
+    {"file": "README.md", "location": "/", "description": "Project overview and clickable file tree"},
+    {"file": "FILETREE.md", "location": "/", "description": "Full file tree"},
+    {"file": "CHANGELOG.md", "location": "/", "description": "Project changelog"},
+    {"file": "src/ReplicatedStorage/Modules/Crafting.luau", "location": "Modules", "description": "Crafting system module"},
+    {"file": "src/ReplicatedStorage/Modules/Items.luau", "location": "Modules", "description": "Item definitions and logic"},
+    {"file": "src/ReplicatedStorage/Modules/OTS.luau", "location": "Modules", "description": "OTS system module"},
+    {"file": "src/ReplicatedStorage/Modules/Quests.luau", "location": "Modules", "description": "Quest system module"},
+    {"file": "src/ReplicatedStorage/Modules/ReplicatedData.luau", "location": "Modules", "description": "Shared data module"},
+    {"file": "src/ReplicatedStorage/Modules/WindLines.luau", "location": "Modules", "description": "Wind lines visual module"},
+    {"file": "src/ReplicatedStorage/Modules/Auxiliary/RockModule.luau", "location": "Auxiliary", "description": "Rock-related logic"},
+    {"file": "src/ReplicatedStorage/Modules/FastCastRedux/ActiveCast.luau", "location": "FastCastRedux", "description": "FastCast core logic"},
+    {"file": "src/ReplicatedStorage/Modules/RaycastHitboxV4/HitboxCaster.luau", "location": "RaycastHitboxV4", "description": "Hitbox casting logic"},
+    {"file": "src/ReplicatedStorage/Modules/Roact/init.luau", "location": "Roact", "description": "Roact main entry"}
+    // ... (see FILETREE.md for full list)
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "directories": [
+    {
+      "path": "src/ReplicatedStorage",
+      "purpose": "Shared modules and data accessible by both client and server",
+      "keySubfolders": ["Modules", "Packages", "ThirdParty", "FastCastRedux", "GuiLib", "RaycastHitboxV4", "Roact", "Shared", "SuphisLinkedList", "Templates", "Zone"]
+    },
+    {
+      "path": "src/ServerScriptService",
+      "purpose": "Server-side scripts and logic",
+      "keySubfolders": ["SpellCombatSystem"]
+    },
+    {
+      "path": "docs",
+      "purpose": "Project documentation and indexes",
+      "keySubfolders": []
+    }
+  ]
+}
